@@ -1,0 +1,67 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  fig.retina = 3
+)
+```
+
+# edadata <a href='https://jhelvy.github.io/edadata/'><img src='man/figures/logo.png' align="right" style="height:139px;"/></a>
+
+<!-- badges: start -->
+[![CRAN
+status](https://www.r-pkg.org/badges/version/edadata)](https://CRAN.R-project.org/package=edadata)
+<!-- badges: end -->
+
+This package contains data sets useful for practicing exploratory data analysis. The package contains the following data sets:
+
+Name | Description
+-----|-------------
+`df` | Description
+
+## Installation
+
+The current version is not yet on CRAN, but you can install it from
+Github using the {remotes} library:
+
+```{r, eval=FALSE}
+# install.packages("remotes")
+remotes::install_github("jhelvy/edadata")
+```
+
+Load the library with:
+
+```{r}
+library("edadata")
+```
+
+## Usage
+
+Once loaded, you can work with any of the three data sets. You can find out more about each data set using `?`, e.g., `?production`. You can also see a list of all the dataset using the `data()` function:
+
+```{r}
+data(edadata)
+```
+
+## Author, Version, and License Information
+
+- Author: *John Paul Helveston* https://www.jhelvy.com/
+- Date First Written: *Thursday December 22, 2022*
+- License: [MIT](https://github.com/jhelvy/edadata/blob/master/LICENSE.md)
+
+## Citation Information
+
+If you use this package for in a publication, I would greatly appreciate it if you cited it - you can get the citation by typing `citation("edadata")` into R:
+
+```{r}
+citation("edadata")
+```

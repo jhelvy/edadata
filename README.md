@@ -1,2 +1,9 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # edadata
-Data package for my Exploratory Data Analysis course
+
+This package contains data sets useful for practicing exploratory data analysis.

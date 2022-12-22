@@ -1,0 +1,11 @@
+citHeader("To cite edadata in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "edadata: Data For Exploratory Data Analysis",
+  author   = "John Paul Helveston",
+  year     = "2022",
+  note     = "R package version 0.0.1",
+  url      = "https://jhelvy.github.io/edadata/",
+  textVersion = "John Paul Helveston (2022). edadata: Data For Exploratory Data Analysis."
+)
